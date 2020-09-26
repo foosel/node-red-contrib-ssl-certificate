@@ -1,0 +1,33 @@
+{
+  "name": "node-red-contrib-ssl-certificate",
+  "version": "1.0.0",
+  "description": "Node-RED node to retrieve SSL certificate information from a web server",
+  "main": "ssl-certificate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foosel/node-red-contrib-ssl-certificate.git"
+  },
+  "keywords": [
+    "node-red",
+    "ssl",
+    "certificate",
+    "tls"
+  ],
+  "author": "Gina Häußge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foosel/node-red-contrib-ssl-certificate/issues"
+  },
+  "homepage": "https://github.com/foosel/node-red-contrib-ssl-certificate#readme",
+  "node-red": {
+    "nodes": {
+      "ssl-certificate": "ssl-certificate/ssl-certificate.js"
+    }
+  },
+  "dependencies": {
+    "get-ssl-certificate": "^2.3.3"
+  }
+}
